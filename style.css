@@ -1,0 +1,65 @@
+nav {
+    height: 300px;
+    width: 100%;
+    background-image: url('./asset/nav.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+    color: #36a0ff;
+    margin: 4%
+}
+
+i {
+    color: #36a0ff;
+    width: 5%;
+    font-size: 30px;
+    margin-right: 1%;
+}
+
+.boton {
+    text-align: center;
+    margin: 2%;
+}
+
+.label {
+    display: inline;
+}
+
+.msg {
+    font-size: x-small;
+    text-align: center;
+    color: black;
+}
+
+button {
+    width: 25%;
+}
+
+th {
+    color: #36a0ff;
+    height: 50px;
+    text-align: center;
+}
+
+tbody {
+    background: #99c0e2;
+    color: white;
+}
+
+body {
+    background: whitesmoke;
+}
+
+.footer {
+    background: #36a0ff;
+    height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    button {
+        width: 40%;
+    }
+}
